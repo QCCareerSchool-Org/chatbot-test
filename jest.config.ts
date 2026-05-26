@@ -24,6 +24,7 @@ const config: JestConfig = {
     '<rootDir>/jest.env.ts',
   ],
   collectCoverage: true,
+  clearMocks: true,
 };
 
 export default config;
