@@ -1,0 +1,32 @@
+{
+  "name": "responseapi",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.11.4",
+    "@openai/guardrails": "^0.2.1",
+    "dotenv": "^17.4.2",
+    "openai": "^6.38.0",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@jest/globals": "^30.4.1",
+    "@swc/core": "^1.15.40",
+    "@swc/jest": "^0.2.39",
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.9.1",
+    "jest": "^30.4.2",
+    "jiti": "^2.7.0",
+    "ts-jest": "^29.4.11",
+    "ts-node": "^10.9.2"
+  }
+}
