@@ -8,6 +8,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest src",
+    "lint": "eslint src",
     "build": "tsc"
   },
   "dependencies": {
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@eslint/compat": "^2.1.0",
     "@eslint/js": "^9.39.4",
+    "@faker-js/faker": "^10.4.0",
     "@jest/globals": "^30.4.1",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@swc/core": "^1.15.40",

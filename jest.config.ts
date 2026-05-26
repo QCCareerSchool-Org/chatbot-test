@@ -15,7 +15,7 @@ const config: JestConfig = {
     '^.+\\.[cm]?[jt]sx?$': [ '@swc/jest', swcConfig ],
   },
   transformIgnorePatterns: [
-    '/node_modules/(?!(@openai|@modelcontextprotocol|zod)/)',
+    '/node_modules/(?!(@openai|@modelcontextprotocol|zod|@faker-js/faker)/)',
   ],
   moduleNameMapper: {
     '^(\\.{1,2}/.*)\\.(js|mjs|cjs)$': '$1',
