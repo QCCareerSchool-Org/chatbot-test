@@ -1,5 +1,4 @@
 import { client } from "../client/openaiclient.js";
-import fs from "fs";
 import sampleStudentData from '../../sampledata.json' with { type: 'json' };
 import { runGuardrails, type GuardrailBundle } from "@openai/guardrails";
 import type { Student } from "./student.js";

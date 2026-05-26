@@ -18,15 +18,23 @@
     "typescript": "^6.0.3"
   },
   "devDependencies": {
+    "@eslint/compat": "^2.1.0",
+    "@eslint/js": "^9.39.4",
     "@jest/globals": "^30.4.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
     "@swc/core": "^1.15.40",
     "@swc/jest": "^0.2.39",
     "@types/express": "^5.0.6",
     "@types/jest": "^30.0.0",
-    "@types/node": "^25.9.1",
+    "@types/node": "^24.12.4",
+    "eslint": "^9.39.4",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jest": "^29.15.2",
     "jest": "^30.4.2",
     "jiti": "^2.7.0",
     "ts-jest": "^29.4.11",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript-eslint": "^8.60.0"
   }
 }

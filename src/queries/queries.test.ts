@@ -1,5 +1,5 @@
 import { generateResponse } from "./queries.js";
-import { GuardrailResult } from "@openai/guardrails";
+import type { GuardrailResult } from "@openai/guardrails";
 import { runGuardrails } from "@openai/guardrails";
 import { client } from "../client/openaiclient.js";
 
